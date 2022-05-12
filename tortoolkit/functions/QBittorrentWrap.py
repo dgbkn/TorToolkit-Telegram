@@ -28,7 +28,7 @@ async def get_client(host=None,port=None,uname=None,passw=None,retry=2) -> qba.T
     """
     #getting the conn 
     host = host if host is not None else "localhost"
-    port = port if port is not None else "8090"
+    port = port if port is not None else "7000"
     uname = uname if uname is not None else "admin"
     passw = passw if passw is not None else "adminadmin"
     torlog.info(f"Trying to login in qBittorrent using creds {host} {port} {uname} {passw}")
