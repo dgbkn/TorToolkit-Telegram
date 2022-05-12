@@ -39,7 +39,7 @@ except:
         DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
-        #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
+        #DB_URI = "dbname=d20i4c5fu34v5p user=nmmajdlvqseevw password=013c95daa65ade5d58d543a17411fc6f76d018b8f91259db661e9d1cb6c5afcb host=ec2-52-4-104-184.compute-1.amazonaws.com port=5432"
         
         # MEGA CONFIG
         MEGA_ENABLE = False
